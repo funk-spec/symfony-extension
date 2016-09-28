@@ -1,0 +1,11 @@
+default:
+    autoload:
+        funk: %paths.base%
+
+    extensions:
+        FunkSpec\Extension\Symfony\Extension:
+            kernel:
+                class: funk\fixture\Kernel
+            doctrine:
+                rollback: false
+
