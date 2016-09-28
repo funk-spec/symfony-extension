@@ -1,0 +1,18 @@
+{
+    "name": "funk-spec/symfony-extension",
+    "description": "extension that helps using your symfony application's services in your tests",
+    "type": "testwork-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Klein Florian",
+            "email": "florian.klein@free.fr"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "FunkSpec\\Extension\\Symfony": "src"
+        }
+    }
+}
