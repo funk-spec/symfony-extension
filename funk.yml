@@ -1,6 +1,6 @@
 default:
     autoload:
-        funk: %paths.base%
+        funk: '%paths.base%'
 
     extensions:
         FunkSpec\Extension\Symfony\Extension:
